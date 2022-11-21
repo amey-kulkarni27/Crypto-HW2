@@ -43,7 +43,7 @@ def jacobi(b, n):
         if n % 8 == 3 or n % 8 == 5:
             mult *= -1
         b //= 2
-
+    # Not needed since we know t^e is always coprime with n
     # if gcd(n, b) != 1: # Recursion depth exceeded because of this
     #     return 0
     if b == 1:
