@@ -7,7 +7,7 @@ Q1a_val=
 Q1b_val=
 Q1c_flag=
 ###### Exercise 2
-Q2a_m=
+Q2a_m=KNIGHTS STAR
 ###### Exercise 3
 Q3a_sk=
 Q3b_sk=
