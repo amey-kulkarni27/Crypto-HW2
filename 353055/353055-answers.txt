@@ -9,6 +9,6 @@ Q1c_flag=
 ###### Exercise 2
 Q2a_m=KNIGHTS STAR
 ###### Exercise 3
-Q3a_sk=
+Q3a_sk=35320636829051674582466361690979302115
 Q3b_sk=
 
