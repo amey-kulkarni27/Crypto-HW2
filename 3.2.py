@@ -43,8 +43,8 @@ def crt(ai):
 
 cur = 1
 ai = dict()
-primes = get_primes(p)[:]
-print(primes)
+primes = get_primes(p)[:] # P just greater than p
+# print(primes)
 
 
 for pr in primes:
@@ -57,6 +57,8 @@ for pr in primes:
             break
         bdash += 1
     P_gen = (E_dash.gens()[0])
+    
+    # This is just to make the order of the point equal to the prime number
     ord = P_gen.order() // pr
     P_dash = ord * P_gen
     assert(P_dash.order() == pr)
