@@ -92,7 +92,7 @@ for pr in primes:
             ai[pr] = i
 
 ans = crt(ai)
-print(crt)
+print(ans)
 print(ans % p)
     
 
