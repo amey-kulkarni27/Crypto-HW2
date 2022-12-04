@@ -60,7 +60,7 @@ if Q2a_N % 4 == 3 and Q2a_g % 4 == 3:
 else:
     l = prime_jacobi(Q2a_N % Q2a_g, Q2a_g) # Since Q2a_N % 4 == 3 but Q2a_g % 4 == 1, we do this
 
-print(l)
+# print(l)
 # Hence, we know that the Jacobi of t^e is -1 if m=0, and 1 if m=1
 
 # print(jacobi(234, 341))
@@ -74,4 +74,4 @@ for te in Q2a_C:
         res.append(0)
     else:
         print("Error")
-print(to_ascii(res))
+print("Q2a_m=" + str(to_ascii(res)))
